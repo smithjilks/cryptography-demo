@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Cryptography Demo</string>
+    <string name="phone_number_error">Phone number is required</string>
+    <string name="pin_error">Pin should be 4 digits long</string>
+    <string name="phone_number_label">Phone Number</string>
+    <string name="pin_label">Pin</string>
+    <string name="initializing">Initializing. Please wait...</string>
+    <string name="password_error">Password should be greater than 8 characters</string>
+    <string name="email_error">Enter correct email address</string>
+    <string name="password_label">Password</string>
+    <string name="email_label">Email</string>
+    <string name="btn_continue">Continue</string>
+    <string name="auth_error">Invalid credentials supplied</string>
+    <string name="pin_verification_error">Pin verification failed</string>
+    <string name="pin_verification_success">Pin verification successful</string>
+    <string name="set_pin">Set Pin</string>
+    <string name="set_pin_success">Successfully set pin</string>
+    <string name="set_pin_error">An error occurred while setting pin.</string>
+
+</resources>

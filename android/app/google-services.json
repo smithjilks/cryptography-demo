@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "239470354200",
+    "project_id": "cryptodemo-2d883",
+    "storage_bucket": "cryptodemo-2d883.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239470354200:android:dbd8ee50887459c845c86d",
+        "android_client_info": {
+          "package_name": "com.smithjilks.cryptographydemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBEpxy3hc0gV87W5wVwiYhGSa71MXyF0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
