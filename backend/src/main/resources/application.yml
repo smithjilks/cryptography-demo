@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: cryptography-demo-service
+  datasource:
+    autocommit: false
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5439/crypto_demo
+    username: postgres
+    password: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop #recreates the db; Don't use for prod
+    show-sql: true
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+  h2:
+    console:
+      enabled: true
+
+message: hello from default profile
+jwt_signing_secret_key: zEVTwGQhSkd9Y5a7dTV8uq+ocH7PhbB5aAnCIE0T7Bl+gm8MyNt16hL2pF3N2ia2
+server_secret_key: random_string_for_encryption
+
+
